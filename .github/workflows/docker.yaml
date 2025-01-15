@@ -45,4 +45,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            ELASTICSEARCH_VERSION=${{ github.ref }}
+            ELASTICSEARCH_VERSION=${{ github.ref_name }}
