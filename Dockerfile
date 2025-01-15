@@ -1,4 +1,6 @@
 ARG ELASTICSEARCH_VERSION
+ENV ELASTICSEARCH_VERSION=${ELASTICSEARCH_VERSION}
+
 FROM elasticsearch:${ELASTICSEARCH_VERSION}
 
 ENV IK_RELEASE=https://release.infinilabs.com/analysis-ik/stable/elasticsearch-analysis-ik-${ELASTICSEARCH_VERSION}.zip
