@@ -7,6 +7,10 @@ Docker image based on the [official elasticsearch image](https://hub.docker.com/
 - IK Analysis: primarily used for text analysis, particularly for Chinese language processing.
 - STConvert: used for converting between Simplified Chinese and Traditional Chinese.
 
+# Usage
+
+You can find available packages on the [Packages page](https://github.com/mogita/elasticsearch-ik-stconvert/pkgs/container/elasticsearch-ik-stconvert).
+
 # License
 
 This project is licensed under the terms of the [MIT license](LICENSE).
